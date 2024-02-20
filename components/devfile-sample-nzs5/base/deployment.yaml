@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-nzs5
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0062-tenant/tkrw-pr712-0075-0062-app/devfile-sample-nzs5@sha256:0bb2d97717668ec86a0a66bb802049976584e621910291198cb1c664c24a3aca
         name: my-nodejs
         ports:
         - containerPort: 3001
